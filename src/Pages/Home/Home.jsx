@@ -3,7 +3,7 @@ import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
 import Resume_Radhana_Patel from "../../assets/docs/Resume_Radhana_Patel.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import "./home.css";
+import "./Home.css";
 import { motion } from "framer-motion"; 
 
 const Home = () => {
