@@ -46,15 +46,16 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
-                            <div className="card-body text-center">
-                                <h6 className="text-uppercase">MERN Authentication System</h6>
-                                <a className="ad-btn" href="#">View</a>
+                            <div className="card-body">
+                                <p className="text-uppercase ">MERN Authentication System
+                                <a className="ad-btn ms-2" href="#">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 2 ===== */}
-                    <motion.div className="col-md-4 mt-4"
+                    <motion.div className="col-md-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
                         transition={{ duration: 0.7, delay: 0.2 }}
@@ -72,14 +73,15 @@ const Projects = () => {
                                 <span className="card-detail-badge">Firebase</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">MERN Chat App</h6>
-                                <a className="ad-btn" href="#">View</a>
+                                <p className="text-uppercase">MERN Chat App
+                                <a className="ad-btn ms-4" href="#">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 3 ===== */}
-                    <motion.div className="col-md-4 mt-4"
+                    <motion.div className="col-md-4 "
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
                         transition={{ duration: 0.7, delay: 0.4 }}
@@ -93,8 +95,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">React CRUD Project</h6>
-                                <a className="ad-btn" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a>
+                                <p className="text-uppercase">React CRUD Project
+                                <a className="ad-btn ms-4" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -111,8 +114,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">E-commerce Website</h6>
-                                <a className="ad-btn" href="#">View</a>
+                                <p className="text-uppercase">E-commerce Website
+                                <a className="ad-btn ms-4" href="#">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -129,8 +133,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Weather App</h6>
-                                <a className="ad-btn" href="https://weather-app-project-red.vercel.app" target="_blank">View</a>
+                                <p className="text-uppercase">Weather App
+                                <a className="ad-btn ms-4" href="https://weather-app-project-red.vercel.app" target="_blank">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -150,8 +155,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">CSS Generator</h6>
-                                <a className="ad-btn" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a>
+                                <p className="text-uppercase">CSS Generator
+                                <a className="ad-btn ms-4" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -171,8 +177,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Todo App</h6>
-                                <a className="ad-btn" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a>
+                                <p className="text-uppercase">Todo App
+                                <a className="ad-btn ms-4" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -192,8 +199,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">MERN CRUD</h6>
-                                <a className="ad-btn" href="#">View</a>
+                                <p className="text-uppercase">MERN CRUD
+                                <a className="ad-btn ms-4" href="#">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>
@@ -212,8 +220,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Coffee Page</h6>
-                                <a className="ad-btn" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a>
+                                <p className="text-uppercase">Coffee Page
+                                <a className="ad-btn ms-4" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a>
+                                </p>
                             </div>
                         </div>
                     </motion.div>

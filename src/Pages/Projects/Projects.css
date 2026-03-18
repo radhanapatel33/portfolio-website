@@ -20,21 +20,21 @@
   margin: 30px 0px 30px 0px;
 } 
 /* -------- */
-.card-body {
+/* .card-body {
   flex-grow: 1;
-  padding: 15px;
-  margin-top: auto;
-}
+  /* padding: 15px; */
+  /* margin-top: auto; */
+/* }  */
 
-.card {
+/* .card {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;  */
   /* justify-content: space-between; */
-}
+/* } */
 
- .project .card {
+ /* .project .card {
   height: 100%;
-}
+} */
 /* ----------- */
  
 #ads .card-notify-badge {
@@ -77,23 +77,25 @@
   transition: all 1s ease;
 }
 
+
 .ad-btn {
   text-transform: uppercase;
-  width: 150px;
-  height: 40px;
-  display: block;
+  width: 60px;
+  /* height: 40px; */
+  /* display: block; */
+   display:inline-block ;
   text-align: center;
   background-color: #138781;
   color: white;
   border-radius: 80px;
-  font-size: 16px;
-  line-height: 35px;
+  font-size: 15px;
+  line-height: 37px;
   text-decoration: none;
-  margin: 20px auto 20px auto; 
+  /* margin: 20px auto 20px auto;   */
   /* overflow: hidden; */
-   overflow: visible;
+    overflow: visible;
   position: relative;
-}
+}  
 
 .ad-btn:hover {
   background-color: white;
@@ -122,15 +124,16 @@
   
   .ad-btn {
   text-transform: uppercase;
-  width: 100px;
-  height: 40px;
-  display: block;
+  width: 60px;
+  /* height: 40px; */
+  /* display: block; */
+  display: inline-block;
   text-align: center;
   background-color: #138781;
   color: white;
   border-radius: 80px;
-  font-size: 16px;
-  line-height: 35px;
+  font-size: 15px;
+  line-height: 37px;
   text-decoration: none;
   margin: 20px auto 20px auto; 
   /* overflow: hidden; */
