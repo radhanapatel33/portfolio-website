@@ -327,11 +327,19 @@ const Projects = () => {
                                     alt="project9"
                                 />
                             </div>
-                            <div className="card-image-overly m-auto mt-3">
+                            <div className="card-image-overly m-auto mt-3 text-center">
                                 <span className="card-detail-badge">html</span>
                                 <span className="card-detail-badge">css</span>
+                                <div className="ad-title">
+                                    <h5 className="text-uppercase mt-3">Coffee Page</h5>
+                                </div>
+                                <a className="ad-btn"
+                                href="https://coffee-web-page-project.netlify.app"
+                                >
+                                    View
+                                </a>
                             </div>
-                            <div className="card-body text-center">
+                            {/* <div className="card-body text-center">
                                 <div className="ad-title m-auto">
                                     <h5 className="text-uppercase">Coffee Page</h5>
                                 </div>
@@ -340,7 +348,7 @@ const Projects = () => {
                                 >
                                     View
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </motion.div>
 
