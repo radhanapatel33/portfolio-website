@@ -59,7 +59,7 @@ const Projects = () => {
                                 </div>
                                 <a
                                     className="ad-btn"
-                                // href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                                href="#"
                                 >
                                     View
                                 </a>
@@ -97,7 +97,7 @@ const Projects = () => {
                                 </div>
                                 <a
                                     className="ad-btn"
-                                // href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                                href="#"
                                 >
                                     View
                                 </a>
@@ -163,7 +163,7 @@ const Projects = () => {
                                     <h5 className="text-uppercase">E-commerce website</h5>
                                 </div>
                                 <a className="ad-btn"
-                                // href="view"
+                                href="#"
                                 >
                                     View
                                 </a>
@@ -302,7 +302,7 @@ const Projects = () => {
                                     <h5 className="text-uppercase">mern crud project</h5>
                                 </div>
                                 <a className="ad-btn"
-                                // href="view"
+                                href="#"
                                 >
                                     View
                                 </a>
