@@ -65,8 +65,8 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 {/* <span className="card-notify-badge">Full Stack</span> */}
-                                <span>
-                                    <a className="ad-btn" href="#" target="_blank" rel="noopener noreferrer">View</a>
+                                <span className="card-notify-badge">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">View</a>
                                 </span>
                                 <img src={chatapp} alt="project2" />
                             </div>
@@ -94,8 +94,8 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span>
-                                    <a className="ad-btn" href="https://crud-react-project-lemon.vercel.app" target="_blank"
+                                <span className="card-notify-badge">
+                                    <a  href="https://crud-react-project-lemon.vercel.app" target="_blank"
                                         rel="noopener noreferrer" >View</a>
                                 </span>
                                 <img src={crud} alt="project3" />
@@ -116,8 +116,8 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span>
-                                    <a className="ad-btn" href="#" target="_blank"
+                                <span className="card-notify-badge">
+                                    <a href="#" target="_blank"
                                         rel="noopener noreferrer" >View</a>
                                 </span>
 
@@ -139,8 +139,8 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span>
-                                    <a className="ad-btn" href="https://weather-app-project-red.vercel.app" target="_blank"
+                                <span className="card-notify-badge">
+                                    <a href="https://weather-app-project-red.vercel.app" target="_blank"
                                         rel="noopener noreferrer">View</a>
                                 </span>
 
@@ -162,8 +162,8 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span>
-                                    <a className="ad-btn" href="https://css-generator-tool-project.netlify.app" target="_blank"
+                                <span className="card-notify-badge">
+                                    <a href="https://css-generator-tool-project.netlify.app" target="_blank"
                                         rel="noopener noreferrer">View</a>
                                 </span>
 
@@ -187,8 +187,8 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             {/* <span className="card-notify-badge">Frontend</span> */}
-                            <span>
-                                <a className="ad-btn" href="https://todo-list-project-rp.netlify.app" target="_blank"
+                            <span className="card-notify-badge">
+                                <a href="https://todo-list-project-rp.netlify.app" target="_blank"
                                     rel="noopener noreferrer">View</a>
                             </span>
 
@@ -213,8 +213,8 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             {/* <span className="card-notify-badge">Full Stack</span> */}
-                            <span>
-                                <a className="ad-btn " href="#" target="_blank"
+                            <span className="card-notify-badge">
+                                <a href="#" target="_blank"
                                     rel="noopener noreferrer">View</a>
                             </span>
 
@@ -239,8 +239,8 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             {/* <span className="card-notify-badge">Frontend</span> */}
-                            <span>
-                                <a className="ad-btn" href="https://coffee-web-page-project.netlify.app" target="_blank"
+                            <span className="card-notify-badge">
+                                <a href="https://coffee-web-page-project.netlify.app" target="_blank"
                                     rel="noopener noreferrer">View</a>
                             </span>
 

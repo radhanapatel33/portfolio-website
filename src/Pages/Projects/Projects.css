@@ -53,19 +53,19 @@
 
 } 
 
-.ad-btn{
+/* .ad-btn{
   position: absolute;
   left: -10px;
   top: -20px;
-  /* background: #f29f67; */
+  background: #f29f67;
    text-align: center;
   border-radius: 30px 30px 30px 30px;
   color:white;
   padding: 5px 10px;
-  font-size: 15px;
-  background-color: #138781;
-  text-decoration: none; 
-}
+  font-size: 15px; */
+  /* background-color: #138781; */
+  /* text-decoration: none;  */
+/* } */
 
 .project .card img {
   height: 150px;
@@ -88,12 +88,12 @@
   margin-left: 5px;
 }
 
-.project .card:hover {
+/* .project .card:hover {
   background-color: white;
   border-radius: 4px;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
   transition: all 1s ease;
-}
+} */
 
 
 /* .ad-btn {
@@ -123,12 +123,12 @@
   transition: all 0.5s ease;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }  */
-.ad-btn:hover{
+/* .ad-btn:hover{
    background-color: white;
   color: #138781;
   transition: all 0.5s ease;
 
-}
+} */
 
 
 /* =============================== */
