@@ -50,7 +50,7 @@ const Projects = () => {
                             </div>
                             <div className="card-body text-center">
                                 <h6 className="text-uppercase ">MERN Authentication System
-                                    {/* <a className="ad-btn" href="#">View</a> */}
+                                   <span className="card-notify-badge1"> <a href="#">View</a></span>
                                 </h6>
                             </div>
                         </div>
