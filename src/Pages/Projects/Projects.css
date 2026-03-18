@@ -22,12 +22,13 @@
 .card-body {
   flex-grow: 1;
   padding: 15px;
+  margin-top: auto;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .project .card {
