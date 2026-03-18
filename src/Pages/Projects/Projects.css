@@ -18,6 +18,22 @@
 #ads {
   margin: 30px 0px 30px 0px;
 }
+/* -------- */
+.card-body {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project .card {
+  height: 100%;
+}
+/* ----------- */
 
 #ads .card-notify-badge {
   position: absolute;
@@ -72,7 +88,8 @@
   line-height: 35px;
   text-decoration: none;
   margin: 20px auto 20px auto;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: visible;
   position: relative;
 }
 
@@ -114,7 +131,8 @@
   line-height: 35px;
   text-decoration: none;
   margin: 20px auto 20px auto;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: visible;
   position: relative;
 }
 }

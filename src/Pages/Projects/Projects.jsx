@@ -74,7 +74,7 @@ const Projects = () => {
                         whileInView={{ rotate: 0, opacity: 1 }}
                         transition={{ duration: 0.7, delay: 0.2 }}
                         viewport={{ once: true }}
-                        className="col-md-4"
+                        className="col-md-4 mt-4"
                     >
                         <div className="card rounded">
                             <div className="card-image">
@@ -112,7 +112,7 @@ const Projects = () => {
                         whileInView={{ rotate: 0, opacity: 1 }}
                         transition={{ duration: 0.7, delay: 0.4 }}
                         viewport={{ once: true }}
-                        className="col-md-4"
+                        className="col-md-4 mt-4"
                     >
                         <div className="card rounded">
                             <div className="card-image">
