@@ -37,7 +37,8 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Full stack</span>
+                                {/* <span className="card-notify-badge">Full stack</span> */}
+                                <span><a className="ad-btn" href="#">View</a></span>
                                 <img src={authentication} alt="project1" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
@@ -46,10 +47,10 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
-                            <div className="card-body">
-                                <p className="text-uppercase ">MERN Authentication System
-                                <a className="ad-btn ms-2" href="#">View</a>
-                                </p>
+                            <div className="card-body text-center">
+                                <h6 className="text-uppercase ">MERN Authentication System
+                                    {/* <a className="ad-btn" href="#">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -62,7 +63,10 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Full Stack</span>
+                                {/* <span className="card-notify-badge">Full Stack</span> */}
+                                <span>
+                                    <a className="ad-btn" href="#">View</a>
+                                </span>
                                 <img src={chatapp} alt="project2" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
@@ -73,9 +77,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">Firebase</span>
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">MERN Chat App
-                                <a className="ad-btn ms-4" href="#">View</a>
-                                </p>
+                                <h6 className="text-uppercase">MERN Chat App
+                                    {/* <a className="ad-btn ms-4" href="#">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -88,16 +92,19 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">Frontend</span> */}
+                                <span>
+                                    <a className="ad-btn" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a>
+                                </span>
                                 <img src={crud} alt="project3" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">React CRUD Project
-                                <a className="ad-btn ms-4" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a>
-                                </p>
+                                <h6 className="text-uppercase">React CRUD Project
+                                    {/* <a className="ad-btn ms-4" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -106,7 +113,10 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">Frontend</span> */}
+                                <span>
+                                    <a className="ad-btn" href="#">View</a>
+                                </span>
 
                                 <img src={ecommerce} alt="project4" />
                             </div>
@@ -114,9 +124,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">E-commerce Website
-                                <a className="ad-btn ms-4" href="#">View</a>
-                                </p>
+                                <h6 className="text-uppercase">E-commerce Website
+                                    {/* <a className="ad-btn ms-4" href="#">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -125,7 +135,10 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">Frontend</span> */}
+                                <span>
+                                    <a className="ad-btn" href="https://weather-app-project-red.vercel.app" target="_blank">View</a>
+                                </span>
 
                                 <img src={weatherapp} alt="project5" />
                             </div>
@@ -133,9 +146,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">Weather App
-                                <a className="ad-btn ms-4" href="https://weather-app-project-red.vercel.app" target="_blank">View</a>
-                                </p>
+                                <h6 className="text-uppercase">Weather App
+                                    {/* <a className="ad-btn ms-4" href="https://weather-app-project-red.vercel.app" target="_blank">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -144,7 +157,10 @@ const Projects = () => {
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">Frontend</span> */}
+                                <span>
+                                    <a className="ad-btn" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a>
+                                </span>
 
                                 <img src={Css_Box_Shadow_Generator} alt="project6" />
                             </div>
@@ -155,9 +171,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">CSS Generator
-                                <a className="ad-btn ms-4" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a>
-                                </p>
+                                <h6 className="text-uppercase">CSS Generator
+                                    {/* <a className="ad-btn ms-4" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -165,7 +181,10 @@ const Projects = () => {
                     {/* ===== PROJECT 7 ===== */}
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
-                            <span className="card-notify-badge">Frontend</span>
+                            {/* <span className="card-notify-badge">Frontend</span> */}
+                            <span>
+                                    <a className="ad-btn" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a>
+                            </span>
 
                             <div className="card-image">
                                 <img src={todo} alt="project7" />
@@ -177,9 +196,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">Todo App
-                                <a className="ad-btn ms-4" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a>
-                                </p>
+                                <h6 className="text-uppercase">Todo App
+                                    {/* <a className="ad-btn" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -187,7 +206,10 @@ const Projects = () => {
                     {/* ===== PROJECT 8 ===== */}
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
-                            <span className="card-notify-badge">Full Stack</span>
+                            {/* <span className="card-notify-badge">Full Stack</span> */}
+                            <span>
+                                    <a className="ad-btn " href="#">View</a>
+                            </span>
 
                             <div className="card-image">
                                 <img src={mern_crud} alt="project8" />
@@ -199,9 +221,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">MERN CRUD
-                                <a className="ad-btn ms-4" href="#">View</a>
-                                </p>
+                                <h6 className="text-uppercase">MERN CRUD
+                                    {/* <a className="ad-btn ms-4" href="#">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
@@ -209,7 +231,10 @@ const Projects = () => {
                     {/* ===== PROJECT 9 ===== */}
                     <motion.div className="col-md-4 mt-4">
                         <div className="card rounded">
-                            <span className="card-notify-badge">Frontend</span>
+                            {/* <span className="card-notify-badge">Frontend</span> */}
+                            <span>
+                                    <a className="ad-btn" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a>
+                            </span>
 
                             <div className="card-image">
                                 <img src={coffee} alt="project9" />
@@ -220,9 +245,9 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <p className="text-uppercase">Coffee Page
-                                <a className="ad-btn ms-4" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a>
-                                </p>
+                                <h6 className="text-uppercase">Coffee Page
+                                    {/* <a className="ad-btn ms-4" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a> */}
+                                </h6>
                             </div>
                         </div>
                     </motion.div>
