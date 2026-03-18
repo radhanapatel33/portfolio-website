@@ -37,7 +37,8 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                <span className="card-notify-badge">Full stack</span>
+                                {/* <span className="card-notify-badge">Full stack</span> */}
+                                <span className="card-notify-badge"><a href="https://google.com">LINK</a></span>
                                 {/* <span><a className="ad-btn" href="#" target="_blank" rel="noopener noreferrer">View</a></span> */}
                                 <img src={authentication} alt="project1" />
                             </div>
