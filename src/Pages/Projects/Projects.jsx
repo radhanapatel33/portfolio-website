@@ -37,9 +37,7 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Full stack</span> */}
-                                <span className="card-notify-badge"><a href="https://google.com">LINK</a></span>
-                                {/* <span><a className="ad-btn" href="#" target="_blank" rel="noopener noreferrer">View</a></span> */}
+                                <span className="card-notify-badge">Full stack</span>
                                 <img src={authentication} alt="project1" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
@@ -49,9 +47,9 @@ const Projects = () => {
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase ">MERN Authentication System
-                                   <span className="card-notify-badge1"> <a href="#">View</a></span>
-                                </h6>
+                                <h5 className="text-uppercase ">MERN Authentication System
+                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
@@ -64,10 +62,10 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Full Stack</span> */}
-                                <span className="card-notify-badge">
+                                <span className="card-notify-badge">Full Stack</span>
+                                {/* <span className="card-notify-badge">
                                     <a href="#" target="_blank" rel="noopener noreferrer">View</a>
-                                </span>
+                                </span> */}
                                 <img src={chatapp} alt="project2" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
@@ -78,9 +76,10 @@ const Projects = () => {
                                 <span className="card-detail-badge">Firebase</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">MERN Chat App
+                                <h5 className="text-uppercase">MERN Chat App
+                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="#">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
@@ -93,33 +92,38 @@ const Projects = () => {
                     >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span className="card-notify-badge">
+                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">
                                     <a  href="https://crud-react-project-lemon.vercel.app" target="_blank"
                                         rel="noopener noreferrer" >View</a>
-                                </span>
+                                </span> */}
                                 <img src={crud} alt="project3" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">React CRUD Project
+                                <h5 className="text-uppercase">React CRUD Project
+                                    <span className="card-notify-badge1"> <a href="https://crud-react-project-lemon.vercel.app">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="https://crud-react-project-lemon.vercel.app" target="_blank">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 4 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span className="card-notify-badge">
+                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">
                                     <a href="#" target="_blank"
                                         rel="noopener noreferrer" >View</a>
-                                </span>
+                                </span> */}
 
                                 <img src={ecommerce} alt="project4" />
                             </div>
@@ -127,22 +131,27 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">E-commerce Website
+                                <h5 className="text-uppercase">E-commerce Website
+                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="#">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 5 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span className="card-notify-badge">
+                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">
                                     <a href="https://weather-app-project-red.vercel.app" target="_blank"
                                         rel="noopener noreferrer">View</a>
-                                </span>
+                                </span> */}
 
                                 <img src={weatherapp} alt="project5" />
                             </div>
@@ -150,22 +159,28 @@ const Projects = () => {
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Weather App
+                                <h5 className="text-uppercase">Weather App
+                                    <span className="card-notify-badge1"> <a href="https://weather-app-project-red.vercel.app">View</a></span>
+
                                     {/* <a className="ad-btn ms-4" href="https://weather-app-project-red.vercel.app" target="_blank">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 6 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
                             <div className="card-image">
-                                {/* <span className="card-notify-badge">Frontend</span> */}
-                                <span className="card-notify-badge">
+                                <span className="card-notify-badge">Frontend</span>
+                                {/* <span className="card-notify-badge">
                                     <a href="https://css-generator-tool-project.netlify.app" target="_blank"
                                         rel="noopener noreferrer">View</a>
-                                </span>
+                                </span> */}
 
                                 <img src={Css_Box_Shadow_Generator} alt="project6" />
                             </div>
@@ -176,21 +191,26 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">CSS Generator
+                                <h5 className="text-uppercase">CSS Generator
+                                    <span className="card-notify-badge1"> <a href="https://css-generator-tool-alpha.vercel.app">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="https://css-generator-tool-project.netlify.app" target="_blank">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 7 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
-                            {/* <span className="card-notify-badge">Frontend</span> */}
-                            <span className="card-notify-badge">
+                            <span className="card-notify-badge">Frontend</span>
+                            {/* <span className="card-notify-badge">
                                 <a href="https://todo-list-project-rp.netlify.app" target="_blank"
                                     rel="noopener noreferrer">View</a>
-                            </span>
+                            </span> */}
 
                             <div className="card-image">
                                 <img src={todo} alt="project7" />
@@ -202,21 +222,26 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Todo App
+                                <h5 className="text-uppercase">Todo App
+                                    <span className="card-notify-badge1"> <a href="https://todo-list-project-bay.vercel.app">View</a></span>
                                     {/* <a className="ad-btn" href="https://todo-list-project-rp.netlify.app" target="_blank">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 8 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
-                            {/* <span className="card-notify-badge">Full Stack</span> */}
-                            <span className="card-notify-badge">
+                            <span className="card-notify-badge">Full Stack</span>
+                            {/* <span className="card-notify-badge">
                                 <a href="#" target="_blank"
                                     rel="noopener noreferrer">View</a>
-                            </span>
+                            </span> */}
 
                             <div className="card-image">
                                 <img src={mern_crud} alt="project8" />
@@ -228,21 +253,26 @@ const Projects = () => {
                                 <span className="card-detail-badge">MongoDB</span>
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">MERN CRUD
+                                <h5 className="text-uppercase">MERN CRUD
+                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="#">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 9 ===== */}
-                    <motion.div className="col-md-4 mt-4">
+                    <motion.div className="col-md-4 mt-4"
+                        initial={{ rotate: -10, opacity: 0 }}
+                        whileInView={{ rotate: 0, opacity: 1 }}
+                        transition={{ duration: 0.7 }}
+                    >
                         <div className="card rounded">
-                            {/* <span className="card-notify-badge">Frontend</span> */}
-                            <span className="card-notify-badge">
+                            <span className="card-notify-badge">Frontend</span>
+                            {/* <span className="card-notify-badge">
                                 <a href="https://coffee-web-page-project.netlify.app" target="_blank"
                                     rel="noopener noreferrer">View</a>
-                            </span>
+                            </span> */}
 
                             <div className="card-image">
                                 <img src={coffee} alt="project9" />
@@ -253,9 +283,10 @@ const Projects = () => {
 
                             </div>
                             <div className="card-body text-center">
-                                <h6 className="text-uppercase">Coffee Page
+                                <h5 className="text-uppercase">Coffee Page
+                                    <span className="card-notify-badge1"> <a href="https://coffee-web-page-gamma.vercel.app">View</a></span>
                                     {/* <a className="ad-btn ms-4" href="https://coffee-web-page-project.netlify.app" target="_blank">View</a> */}
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </motion.div>
