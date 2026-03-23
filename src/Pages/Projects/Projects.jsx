@@ -29,6 +29,7 @@ const Projects = () => {
                 <div className="row" id="ads">
 
                     {/* ===== PROJECT 1 ===== */}
+
                     <motion.div className="col-md-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
@@ -47,13 +48,14 @@ const Projects = () => {
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase ">MERN Authentication System
-                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://mern-auth-frontend-psi-cyan.vercel.app">View</a></span>
                                 </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 2 ===== */}
+
                     <motion.div className="col-md-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
@@ -73,35 +75,40 @@ const Projects = () => {
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">MERN Chat App
-                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://mern-real-time-chat-app-cqxg.onrender.com">View</a></span>
                                 </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 3 ===== */}
-                    <motion.div className="col-md-4 "
+
+                    <motion.div className="col-md-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
-                        transition={{ duration: 0.7, delay: 0.4 }}
+                        transition={{ duration: 0.7 }}
                     >
                         <div className="card rounded">
+                            <span className="card-notify-badge">Full Stack</span>
                             <div className="card-image">
-                                <span className="card-notify-badge">Frontend</span>
-                                <img src={crud} alt="project3" />
+                                <img src={mern_crud} alt="project8" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
+                                <span className="card-detail-badge">Node</span>
+                                <span className="card-detail-badge">Express</span>
                                 <span className="card-detail-badge">React</span>
+                                <span className="card-detail-badge">MongoDB</span>
                             </div>
                             <div className="card-body text-center">
-                                <h5 className="text-uppercase">React CRUD Project
-                                    <span className="card-notify-badge1"> <a href="https://crud-react-project-lemon.vercel.app">View</a></span>
+                                <h5 className="text-uppercase">MERN CRUD AUTH
+                                    <span className="card-notify-badge1"> <a href="https://mern-crud-auth-three.vercel.app">View</a></span>
                                 </h5>
                             </div>
                         </div>
                     </motion.div>
 
                     {/* ===== PROJECT 4 ===== */}
+
                     <motion.div className="col-md-4 mt-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
@@ -124,22 +131,23 @@ const Projects = () => {
                     </motion.div>
 
                     {/* ===== PROJECT 5 ===== */}
+
                     <motion.div className="col-md-4 mt-4"
                         initial={{ rotate: -10, opacity: 0 }}
                         whileInView={{ rotate: 0, opacity: 1 }}
-                        transition={{ duration: 0.7 }}
+                        transition={{ duration: 0.7, delay: 0.4 }}
                     >
                         <div className="card rounded">
                             <div className="card-image">
                                 <span className="card-notify-badge">Frontend</span>
-                                <img src={weatherapp} alt="project5" />
+                                <img src={crud} alt="project3" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
                             </div>
                             <div className="card-body text-center">
-                                <h5 className="text-uppercase">Weather App
-                                    <span className="card-notify-badge1"> <a href="https://weather-app-project-red.vercel.app">View</a></span>
+                                <h5 className="text-uppercase">React CRUD Project
+                                    <span className="card-notify-badge1"> <a href="https://crud-react-project-lemon.vercel.app">View</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -165,80 +173,6 @@ const Projects = () => {
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">CSS Generator
                                     <span className="card-notify-badge1"> <a href="https://css-generator-tool-alpha.vercel.app">View</a></span>
-                                </h5>
-                            </div>
-                        </div>
-                    </motion.div>
-
-                    {/* ===== PROJECT 7 ===== */}
-                    <motion.div className="col-md-4 mt-4"
-                        initial={{ rotate: -10, opacity: 0 }}
-                        whileInView={{ rotate: 0, opacity: 1 }}
-                        transition={{ duration: 0.7 }}
-                    >
-                        <div className="card rounded">
-                            <span className="card-notify-badge">Frontend</span>
-                            <div className="card-image">
-                                <img src={todo} alt="project7" />
-                            </div>
-                            <div className="card-image-overly m-auto mt-3">
-                                <span className="card-detail-badge">html</span>
-                                <span className="card-detail-badge">css</span>
-                                <span className="card-detail-badge">javascript</span>
-
-                            </div>
-                            <div className="card-body text-center">
-                                <h5 className="text-uppercase">Todo App
-                                    <span className="card-notify-badge1"> <a href="https://todo-list-project-bay.vercel.app">View</a></span>
-                                </h5>
-                            </div>
-                        </div>
-                    </motion.div>
-
-                    {/* ===== PROJECT 8 ===== */}
-                    <motion.div className="col-md-4 mt-4"
-                        initial={{ rotate: -10, opacity: 0 }}
-                        whileInView={{ rotate: 0, opacity: 1 }}
-                        transition={{ duration: 0.7 }}
-                    >
-                        <div className="card rounded">
-                            <span className="card-notify-badge">Full Stack</span>
-                            <div className="card-image">
-                                <img src={mern_crud} alt="project8" />
-                            </div>
-                            <div className="card-image-overly m-auto mt-3">
-                                <span className="card-detail-badge">Node</span>
-                                <span className="card-detail-badge">Express</span>
-                                <span className="card-detail-badge">React</span>
-                                <span className="card-detail-badge">MongoDB</span>
-                            </div>
-                            <div className="card-body text-center">
-                                <h5 className="text-uppercase">MERN CRUD
-                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
-                                </h5>
-                            </div>
-                        </div>
-                    </motion.div>
-
-                    {/* ===== PROJECT 9 ===== */}
-                    <motion.div className="col-md-4 mt-4"
-                        initial={{ rotate: -10, opacity: 0 }}
-                        whileInView={{ rotate: 0, opacity: 1 }}
-                        transition={{ duration: 0.7 }}
-                    >
-                        <div className="card rounded">
-                            <span className="card-notify-badge">Frontend</span>
-                            <div className="card-image">
-                                <img src={coffee} alt="project9" />
-                            </div>
-                            <div className="card-image-overly m-auto mt-3">
-                                <span className="card-detail-badge">html</span>
-                                <span className="card-detail-badge">css</span>
-
-                            </div>
-                            <div className="card-body text-center">
-                                <h5 className="text-uppercase">Coffee Page
-                                    <span className="card-notify-badge1"> <a href="https://coffee-web-page-gamma.vercel.app">View</a></span>
                                 </h5>
                             </div>
                         </div>
