@@ -45,10 +45,13 @@ const Projects = () => {
                                 <span className="card-detail-badge">Express</span>
                                 <span className="card-detail-badge">React</span>
                                 <span className="card-detail-badge">MongoDB</span>
+                                <span className="card-detail-badge2"><a href="https://github.com/radhanapatel33/mern-auth-system" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase ">MERN Authentication System
-                                    <span className="card-notify-badge1"> <a href="https://mern-auth-frontend-psi-cyan.vercel.app">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://mern-auth-frontend-psi-cyan.vercel.app">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -72,10 +75,13 @@ const Projects = () => {
                                 <span className="card-detail-badge">Express</span>
                                 <span className="card-detail-badge">MongoDB</span>
                                 <span className="card-detail-badge">Firebase</span>
+                                <span className="card-detail-badge2"><a href="https://github.com/radhanapatel33/mern-live-chat-app" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">MERN Chat App
-                                    <span className="card-notify-badge1"> <a href="https://mern-real-time-chat-app-cqxg.onrender.com">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://mern-real-time-chat-app-cqxg.onrender.com">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -98,10 +104,13 @@ const Projects = () => {
                                 <span className="card-detail-badge">Express</span>
                                 <span className="card-detail-badge">React</span>
                                 <span className="card-detail-badge">MongoDB</span>
+                                <span className="card-detail-badge2"><a href="https://github.com/radhanapatel33/mern-user-management-system" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">MERN CRUD AUTH
-                                    <span className="card-notify-badge1"> <a href="https://mern-crud-auth-three.vercel.app">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://mern-crud-auth-three.vercel.app">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -121,10 +130,13 @@ const Projects = () => {
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
+                                <span className="card-detail-badge2"><a href="#" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">E-commerce Website
-                                    <span className="card-notify-badge1"> <a href="#">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="#">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -144,10 +156,13 @@ const Projects = () => {
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
+                                <span className="card-detail-badge2"><a href="https://github.com/radhanapatel33/react-crud-app" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
                             </div>
                             <div className="card-body text-center">
                                 <h5 className="text-uppercase">React CRUD Project
-                                    <span className="card-notify-badge1"> <a href="https://crud-react-project-lemon.vercel.app">View</a></span>
+                                    <span className="card-notify-badge1"> <a href="https://crud-react-project-lemon.vercel.app">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
@@ -168,11 +183,14 @@ const Projects = () => {
                                 <span className="card-detail-badge">html</span>
                                 <span className="card-detail-badge">css</span>
                                 <span className="card-detail-badge">javascript</span>
+                                <span className="card-detail-badge2"><a href="https://github.com/radhanapatel33/css-generator-toolkit" target="_blank" rel="noreferrer">
+                                    View Code
+                                </a></span>
 
                             </div>
                             <div className="card-body text-center">
-                                <h5 className="text-uppercase">CSS Generator
-                                    <span className="card-notify-badge1"> <a href="https://css-generator-tool-alpha.vercel.app">View</a></span>
+                                <h5 className="text-uppercase">CSS Generator toolkit
+                                    <span className="card-notify-badge1"> <a href="https://css-generator-tool-alpha.vercel.app">Live Demo</a></span>
                                 </h5>
                             </div>
                         </div>
