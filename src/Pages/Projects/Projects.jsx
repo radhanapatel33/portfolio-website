@@ -1,14 +1,11 @@
 import React from "react";
 import "./Projects.css";
 import { motion } from "framer-motion";
-import authentication from "../../assets/authentication.png";
-import chatapp from "../../assets/chatapp.png";
-import crud from "../../assets/crud.png";
-import mern_crud from "../../assets/mern_crud.png";
-import todo from "../../assets/todo.png";
-import coffee from "../../assets/coffee.png";
+import sign from "../../assets/sign.png";
+import chat from "../../assets/chat.png";
+import reactcrud from "../../assets/reactcrud.png";
+import merncrud from "../../assets/merncrud.png";
 import ecommerce from "../../assets/ecommerce.png";
-import weatherapp from "../../assets/weatherapp.png";
 import Css_Box_Shadow_Generator from "../../assets/Css_Box_Shadow_Generator.png";
 
 const Projects = () => {
@@ -38,7 +35,7 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 <span className="card-notify-badge">Full stack</span>
-                                <img src={authentication} alt="project1" />
+                                <img src={sign} alt="project1" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">Node</span>
@@ -67,7 +64,7 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 <span className="card-notify-badge">Full Stack</span>
-                                <img src={chatapp} alt="project2" />
+                                <img src={chat} alt="project2" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>
@@ -80,7 +77,7 @@ const Projects = () => {
                                 </a></span>
                             </div>
                             <div className="card-body text-center">
-                                <h5 className="text-uppercase">MERN Chat App
+                                <h5 className="text-uppercase">MERN real time Chat App
                                     <span className="card-notify-badge1"> <a href="https://mern-real-time-chat-app-cqxg.onrender.com">Live Demo</a></span>
                                 </h5>
                             </div>
@@ -97,7 +94,7 @@ const Projects = () => {
                         <div className="card rounded">
                             <span className="card-notify-badge">Full Stack</span>
                             <div className="card-image">
-                                <img src={mern_crud} alt="project8" />
+                                <img src={merncrud} alt="project8" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">Node</span>
@@ -109,7 +106,7 @@ const Projects = () => {
                                 </a></span>
                             </div>
                             <div className="card-body text-center">
-                                <h5 className="text-uppercase">MERN CRUD AUTH
+                                <h5 className="text-uppercase">MERN User Management System
                                     <span className="card-notify-badge1"> <a href="https://mern-crud-auth-three.vercel.app">Live Demo</a></span>
                                 </h5>
                             </div>
@@ -152,7 +149,7 @@ const Projects = () => {
                         <div className="card rounded">
                             <div className="card-image">
                                 <span className="card-notify-badge">Frontend</span>
-                                <img src={crud} alt="project3" />
+                                <img src={reactcrud} alt="project3" />
                             </div>
                             <div className="card-image-overly m-auto mt-3">
                                 <span className="card-detail-badge">React</span>

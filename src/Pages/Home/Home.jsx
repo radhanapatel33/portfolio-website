@@ -67,7 +67,7 @@ const Home = () => {
           <a
             className="btn btn-cv"
             href={Resume_Radhana_Patel}
-            download="your_name.pdf"
+            download="Radhana_Patel.pdf"
           >
             My Resume
           </a>
